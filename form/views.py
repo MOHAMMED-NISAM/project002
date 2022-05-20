@@ -19,3 +19,7 @@ def indexFun(request):
 
 def homeFun(request):
     return render(request, 'home.html')
+
+
+def testFun(request):
+    return render(request, 'home.html')
