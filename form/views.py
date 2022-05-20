@@ -21,5 +21,5 @@ def homeFun(request):
     return render(request, 'home.html')
 
 
-def testFun(request):
+def testFun1(request):
     return render(request, 'home.html')
